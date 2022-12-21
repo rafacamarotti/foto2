@@ -38,33 +38,7 @@ function speak(){
         save()
     },5000);
 }
-function speakk(){
-    
-    imgid="selfie1";
-    
-    synth= window.SpeechSynthesis;
-    
-    utterThis = new SpeechSynthesisUtterance(speakData);
-    synth.speak(utterThis);
-    Webcam.attach(camera);
-    setTimeout(function(){
-        takeSelfie();
-        save()
-    },5500);
-}
-function speeak(){
-    
-    Imgid="selfie2";
-    synth= window.SpeechSynthesis;
-    
-    utterThis = new SpeechSynthesisUtterance(speakData);
-    synth.speak(utterThis);
-    Webcam.attach(camera);
-    setTimeout(function(){
-        takeSelfie();
-        save()
-    },5000);
-}
+
 camera = document.getElementById("camera");
 Webcam.set({
     width:360,
