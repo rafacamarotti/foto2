@@ -4,7 +4,7 @@ var recognition = new SpeechRecognition();
 
 var Textbox = document.getElementById("textbox"); 
 
-function start()
+function startt()
 {
     Textbox.innerHTML = ""; 
     recognition.start();
