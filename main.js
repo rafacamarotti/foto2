@@ -64,8 +64,9 @@ function takeSelfie(){
        }
        if(imgId=="selfie1"){
          document.getElementById("result").innerHTML='<img id="selfie1" src="'+data_uri+'"/>';
-    }if(imgId=="selfie2"){
+    }
+      if(imgId=="selfie2"){
          document.getElementById("result").innerHTML='<img id="selfie2" src="'+data_uri+'"/>';}
     });
-
+}
 
