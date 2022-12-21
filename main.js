@@ -68,9 +68,4 @@ function takeSelfie(){
          document.getElementById("result").innerHTML='<img id="selfie2" src="'+data_uri+'"/>';}
     });
 
-function save(){
-    link = document.getElementById("link");
-    image = document.getElementById("selfieImage").src;
-    link.href=image;
-    link.click();
-}
+
