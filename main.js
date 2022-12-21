@@ -63,10 +63,10 @@ function takeSelfie(){
          document.getElementById("result").innerHTML='<img id="selfie" src="'+data_uri+'"/>';
        }
        if(imgId=="selfie1"){
-         document.getElementById("result1").innerHTML='<img id="selfie1" src="'+data_uri+'"/>';
+         document.getElementById("resultt").innerHTML='<img id="selfie1" src="'+data_uri+'"/>';
     }
       if(imgId=="selfie2"){
-         document.getElementById("result2").innerHTML='<img id="selfie2" src="'+data_uri+'"/>';}
+         document.getElementById("resulttt").innerHTML='<img id="selfie2" src="'+data_uri+'"/>';}
     });
 }
 
